@@ -679,7 +679,7 @@ BoxCollider:
   m_GameObject: {fileID: 1412212317876201142}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.23618, y: 2.44728, z: 0.09461507}
   m_Center: {x: 0, y: 1.2209399, z: -0.00012127496}
@@ -695,6 +695,7 @@ GameObject:
   - component: {fileID: 1436541944061541756}
   - component: {fileID: 1426256231611284756}
   - component: {fileID: 1412619687572450141}
+  - component: {fileID: 224432877673489327}
   m_Layer: 0
   m_Name: Door_Wood
   m_TagString: Untagged
@@ -787,3 +788,16 @@ MonoBehaviour:
   doorOpenAngle: 90
   doorCloseAngle: 0
   smoot: 2
+--- !u!65 &224432877673489327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412212320913287896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1872339, y: 0.1942138, z: 2.53698}
+  m_Center: {x: -0.5908871, y: 0.04379931, z: -0.7988863}
